@@ -1,0 +1,146 @@
+header{
+  margin:auto;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+  border-bottom: #263b98 10px solid;
+}
+
+header ul{
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+
+}
+
+header a{
+  color: #666868;
+  font-size: 16px;
+}
+
+#header-logo{
+  width: 15%;
+  float: left;
+  overflow: hidden;
+}
+
+#header-logo img{
+  width: 130px;
+  float: right;
+}
+
+#header-navi-title{
+  font-family: 'Cinzel', serif;
+  font-size: 40px;
+  padding: 20px 20px 20px 20px;
+}
+
+#header-navi{
+  width: 80%;
+  float: right;
+}
+
+#header-navi a{
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  color: #d1d5d5;
+  background: #263b98;
+}
+
+footer ul{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer li{
+  display: inline;
+  padding: 10px 10px 10px 10px;
+}
+
+footer a{
+  font-weight: 550;
+  color: #d1d5d5;
+  font-size: 16px;
+}
+
+#footer-title{
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+}
+
+#footer-social{
+  padding: 0 10px 0 10px ;
+}
+
+#footer-social:hover{
+  color: #919494;
+}
+
+#footer-navi a{
+  text-decoration: none;
+}
+
+#footer-navi a:hover{
+  color: #919494;
+}
+
+#footer-copyright a{
+    text-decoration: underline;
+}
+
+/* Firefox specific rule */
+/* Firefox cannot render "Cinzel" bold, this renders the font as normal to prevent issues */
+@-moz-document url-prefix() {
+  #header-navi-title{
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 909px) {
+  header{
+    padding: 0 0 10px 0;
+  }
+
+  header ul{
+    padding: 0px 10px 10px 10px;
+  }
+
+  header li{
+    float: left;
+    display: inline;
+    padding: 5px 10px 5px 10px;
+
+  }
+
+  #header-navi{
+    width: 75%;
+  }
+
+  #header-navi-title{
+    font-size: 30px;
+    padding: 10px 10px 10px 20px;
+  }
+
+  #header-logo{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 500px){
+  #header-logo img{
+    padding: 15px 0 0 0;
+    width: 110px;
+    float: left;
+  }
+}

@@ -1,0 +1,15 @@
+#error{
+  padding: 50px 0 50px 0 ;
+  height: 75vh;
+  text-align: center;
+}
+
+#error h1{
+  font-family: 'Sanchez', serif;
+  font-size: 50px;
+}
+
+#error p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}

@@ -1,0 +1,266 @@
+#showcase{
+  overflow: hidden;
+}
+
+#showcase img{
+  width: 100%;
+}
+
+#showcase-image{
+  width: 70%;
+  float: right;
+}
+
+#showcase-text{
+  width: 30%;
+  text-align: center;
+  transform: translate(0, 30%);
+}
+
+#showcase-text-mobile{
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+#showcase h1{
+  font-family: 'Sanchez', serif;
+  font-size: 70px;
+  padding: 20px 20px 20px 20px;
+  font-weight: 550;
+  color: #2f49bd;
+  text-shadow:
+    1px -1px 0 #000,
+    -2px 2px 0 #000,
+    1px 1px 0 #000;
+}
+
+#showcase div{
+  width: 40%
+  float:right;
+}
+
+#intro{
+  font-size: 18px;
+  color: #f5f2ed;
+  background: #494949;
+  padding: 50px 25% 50px 25%;
+}
+
+#president{
+  background: #263b98;
+  padding:20px 20px 20px 0;
+  height: 400px
+}
+
+#president img{
+  width: 80%;
+  transform: translate(0, 10%);
+  max-width: 300px;
+  float: right;
+}
+
+#president-message{
+  color:#ffffff;
+  width:60%;
+  padding:20px 10% 20px 40px;
+  float: right;
+  overflow: hidden;
+}
+
+#president-message h1{
+  font-family: 'Cinzel', serif;
+}
+
+#president-message h2{
+  font-style: italic;
+  font-size: 20px;
+}
+
+#president-image{
+  float: right;
+  width: 40%
+}
+
+#links {
+  padding: 30px 0 10px 0;
+  text-align: center;
+}
+
+#links h1{
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+}
+
+#links a{
+  color: #000000;
+  text-decoration: none;
+}
+
+#links a:hover{
+  color: #d1d5d5;
+}
+
+#links ul{
+  text-align: center;
+  padding: 0;
+}
+
+#links img{
+  max-height: 200px;
+  max-width: 200px;
+  width: 15%;
+  padding: 0 0 10px 0;
+}
+
+#links-text{
+  text-align: center;
+  display: inline;
+  font-weight: 550;
+  width:15%
+
+}
+
+#links-text-center{
+  text-align: center;
+  display: inline;
+  font-weight: 550;
+  padding: 0 20% 0 20%;
+  width:15%
+}
+
+#links-image{
+  text-align: center;
+  display: inline;
+  padding: 0 9% 0 9%;
+  width:15%
+}
+
+/* Firefox specific rule */
+/* Firefox cannot render "Cinzel" bold, this renders the font as normal to prevent issues */
+@-moz-document url-prefix() {
+  #links h1{
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 1245px) {
+  #showcase-text{
+    transform: translate(0, 0);
+  }
+}
+
+@media (max-width: 1170px) {
+  #showcase-text{
+    transform: translate(0, 30%);
+  }
+
+  #showcase h1{
+    font-size: 50px;
+
+  }
+}
+
+@media (max-width: 946px) {
+  #showcase-text{
+    transform: translate(0, 0);
+  }
+
+  #president img{
+      margin: 0 0 0 0;
+  }
+
+  #president-image{
+      margin: 0 0 0 0;
+  }
+}
+
+@media (max-width: 909px) {
+  #showcase-image{
+    width: 100%;
+    float: right;
+    border-bottom: #263b98 5px solid;
+  }
+
+  #showcase-text{
+    display: none;
+  }
+
+  #showcase-text-mobile{
+    display: block;
+  }
+
+  #intro{
+    padding: 50px 10% 50px 10%;
+  }
+
+  #links-image{
+    padding: 0 6% 0 6%;
+  }
+
+  #links-text{
+
+    padding: 0 0 0 0;
+  }
+
+  #links-text-center{
+    padding: 0 8% 0 8%;
+  }
+}
+
+@media (max-width: 950px) {
+  #president{
+    height: 720px;
+  }
+
+  #president-message{
+    width: 100%
+  }
+
+  #president-image{
+    width: 100%;
+    text-align: center;
+  }
+
+  #president img{
+    float: none;
+  }
+}
+
+@media (max-width: 634px) {
+  #showcase h1{
+    font-size: 40px;
+    text-shadow:
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  #president{
+    height: 800px;
+  }
+
+  #president-message{
+    width: 100%
+  }
+
+  #links-text{
+    font-size: 10px;
+    font-weight: 900;
+  }
+
+  #links-text-center{
+    font-size: 10px;
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 530px){
+  #president{
+    height: 850px;
+  }
+
+  #links-text-center{
+    padding: 0 5% 0 5%;
+  }
+}
