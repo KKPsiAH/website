@@ -4,6 +4,7 @@ header{
   font-weight: bold;
   padding: 20px 0 20px 0;
   border-bottom: #263b98 10px solid;
+  position: relative;
 }
 
 header ul{
@@ -21,6 +22,7 @@ header li{
 header a{
   color: #666868;
   font-size: 16px;
+  transition-duration: 0.4s;
 }
 
 #header-logo{
@@ -32,6 +34,7 @@ header a{
 #header-logo img{
   width: 130px;
   float: right;
+
 }
 
 #header-navi-title{
@@ -79,6 +82,7 @@ footer a{
 
 #footer-social{
   padding: 0 10px 0 10px ;
+  transition-duration: 0.4s;
 }
 
 #footer-social:hover{
@@ -87,6 +91,7 @@ footer a{
 
 #footer-navi a{
   text-decoration: none;
+  transition-duration: 0.4s;
 }
 
 #footer-navi a:hover{
@@ -127,7 +132,7 @@ footer a{
 
   #header-navi-title{
     font-size: 30px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 25px;
   }
 
   #header-logo{
@@ -142,5 +147,10 @@ footer a{
     padding: 15px 0 0 0;
     width: 110px;
     float: left;
+    position: absolute;
+  }
+
+  #header-navi-title{
+    font-size: 27px;
   }
 }

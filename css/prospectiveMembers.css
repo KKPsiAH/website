@@ -1,0 +1,64 @@
+#why {
+  font-family: Roboto, sans-serif;
+  padding: 30px 10% 30px;
+  background: #494949;
+  color: #f5f2ed;
+  display: flex;
+}
+
+#why h1 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+#why-text {
+  width: 60%;
+}
+
+#carouselSlides {
+  width: 40%;
+  max-width: 500px;
+  padding-right: 30px;
+}
+
+#accordion {
+  padding: 30px 10% 30px 10%;
+  font-family: Roboto, sans-serif;
+  background: #d4d4d4;
+}
+
+#accordion h1 {
+  font-size: 40px;
+  font-family: Cinzel, sans-serif;
+}
+
+#accordion .btn {
+  text-align: left;
+  font-size: 18px;
+  text-decoration: none;
+  color: #494949;
+  transition-duration: 0.3s;
+}
+
+#accordion .btn:hover {
+  background-color: #b0b0b0;
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  #why {
+    display: block;
+  }
+
+  #why-text {
+    width: 100%;
+  }
+
+  #carouselSlides {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 0 30px 0;
+    max-width: 400px;
+  }
+
+}
