@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+#error img {
+  width: 200px;
+}
+
 #error h1{
   font-family: 'Sanchez', serif;
   font-size: 50px;
