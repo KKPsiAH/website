@@ -1,5 +1,6 @@
 #intro{
   padding: 20px 25% 20px 25%;
+
 }
 
 #intro h1{
@@ -8,6 +9,7 @@
 }
 
 #intro p{
+  font-family: Roboto, sans-serif;
   font-size: 18px;
 }
 
@@ -61,7 +63,16 @@
 
 #officer-card .card{
   width: 100%;
+  font-family: Roboto, sans-serif;
   color: #000000;
+}
+
+#officer-card .card h5{
+  font-size: 20px;
+}
+
+#officer-card .card h6{
+  padding-bottom: 10px;
 }
 
 @media (max-width: 928px){
