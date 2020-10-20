@@ -1,0 +1,31 @@
+#form {
+  text-align: center;
+}
+
+#medium-form{
+  display: none;
+}
+
+#small-form{
+  display: none;
+}
+
+@media(max-width: 720px) {
+  #medium-form{
+    display: inline;
+  }
+
+  #large-form{
+    display: none;
+  }
+}
+
+@media(max-width: 530px) {
+  #small-form{
+    display: inline;
+  }
+
+  #medium-form{
+    display: none;
+  }
+}

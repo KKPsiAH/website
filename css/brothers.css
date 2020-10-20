@@ -55,4 +55,8 @@
   #brother-row-group {
     display: block;
   }
+
+  #brother-card .card h3{
+    font-size: 23px;
+  }
 }
