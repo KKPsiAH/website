@@ -1,0 +1,42 @@
+#newsBody {
+  display: flex;
+  background-color: #263b98;
+}
+
+#facebookNews {
+  margin: 30px auto 30px auto;
+  text-align: center;
+}
+
+#facebookNews h1{
+  font-family: Cinzel, serif;
+  color: #d1d5d5;
+}
+
+#featuredPosts iframe{
+  margin: 20px auto 20px auto;
+
+}
+
+#featuredPosts iframe{
+  max-height: 50vh;
+}
+
+#firefox-error-message {
+  display: none;
+  background-color: #263b98;
+}
+
+#firefox-error-message div {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+
+}
+
+/* Firefox blocks embedded Facebook posts unless anti tracking features are turned off by the user*/
+@-moz-document url-prefix() {
+  #firefox-error-message {
+    display: block;
+  }
+}
