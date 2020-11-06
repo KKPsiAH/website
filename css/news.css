@@ -3,12 +3,22 @@
   background-color: #263b98;
 }
 
-#facebookNews {
-  margin: 30px auto 30px auto;
+#newsBodyMobile {
+  display: none;
+  background-color: #263b98;
+}
+
+#facebookNews1 {
+  margin: 50px 40px 30px auto;
   text-align: center;
 }
 
-#facebookNews h1{
+#facebookNews2 {
+  margin: 30px auto 30px 40px;
+  text-align: center;
+}
+
+#facebookNews1 h1{
   font-family: Cinzel, serif;
   color: #d1d5d5;
 }
@@ -37,6 +47,30 @@
 /* Firefox blocks embedded Facebook posts unless anti tracking features are turned off by the user*/
 @-moz-document url-prefix() {
   #firefox-error-message {
+    display: block;
+  }
+}
+
+@media (max-width: 1150px) {
+  #newsBody {
+    display: block;
+  }
+
+  #facebookNews1 {
+    margin: 0px auto 30px auto;
+  }
+
+  #facebookNews2 {
+    margin: 30px auto 0px auto;
+  }
+}
+
+@media (max-width: 553px) {
+  #newsBody {
+    display: none;
+  }
+
+  #newsBodyMobile {
     display: block;
   }
 }
