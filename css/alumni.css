@@ -1,0 +1,47 @@
+#alumni1 {
+  padding: 20px 13% 20px 13%;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  background-color: #263b98;
+  color: #d1d5d5;
+}
+
+#alumni1 h1 {
+  text-align: left;
+  font-family: Cinzel, serif;
+}
+
+#alumni1 img {
+  max-width: 100%;
+}
+
+#alumni2 {
+  width: 75%;
+  margin: 30px auto 30px auto;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+#alumni2 button{
+  margin-bottom: 20px;
+}
+
+#alumni2 p{
+  text-align: center;
+  font-size: 18px;
+}
+
+#alumni2 table {
+  margin: auto;
+}
+
+#alumni2 td {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+
+@media (max-width: 500px) {
+  #alumni2 td {
+    display: block;
+  }
+}
