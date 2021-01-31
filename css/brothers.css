@@ -11,11 +11,11 @@
 }
 
 #brother-row h1 {
-  padding: 40px 20px 40px 20px;
+  padding:40px 20px 40px 20px;
 }
 
 #brother-card {
-  padding:30px 30px 30px 30px;
+  padding:15px 15px 15px 15px;
 }
 
 #brother-card .card {
@@ -32,12 +32,20 @@
 }
 
 #brother-row-2 h1 {
-  padding: 40px 20px 40px 20px;
+  padding:40px 20px 40px 20px;
+}
+
+#hidden-card {
+  visibility: hidden;
 }
 
 @media(max-width: 1264px) {
   #brother-card {
     padding:10px 10px 10px 10px;
+  }
+
+  #brother-card .card h3{
+    font-size: 23px;
   }
 }
 
@@ -48,6 +56,10 @@
 
   #brother-row-2 {
     padding:0px 10px 0px 10px;
+  }
+
+  #brother-card .card h3{
+    font-size: 20px;
   }
 }
 
