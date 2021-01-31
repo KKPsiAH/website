@@ -1,0 +1,104 @@
+#why {
+  font-family: Roboto, sans-serif;
+  padding: 30px 10% 30px;
+  background: #494949;
+  color: #f5f2ed;
+  display: flex;
+  text-align: center;
+}
+
+#header-navi-title {
+  font-size: 50px;
+}
+
+#why h1 {
+  font-size: 25px;
+  font-style: italic;
+}
+
+#why-text {
+  width: 100%;
+}
+
+#accordion {
+  padding: 30px 10% 30px 10%;
+  font-family: Roboto, sans-serif;
+  background: #d4d4d4;
+}
+
+#accordion h1 {
+  font-size: 40px;
+  font-family: Cinzel, sans-serif;
+}
+
+#accordion .btn {
+  text-align: left;
+  font-size: 18px;
+  text-decoration: none;
+  color: #494949;
+  transition-duration: 0.3s;
+}
+
+#accordion .btn:hover {
+  background-color: #b0b0b0;
+  color: white;
+}
+
+#form {
+  padding-top: 15px;
+  text-align: center;
+  background-color: #494949;
+}
+
+#medium {
+  display: none;
+}
+
+#small {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  #why {
+    display: block;
+  }
+
+  #why-text {
+    width: 100%;
+  }
+
+  #carouselSlides {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 0 30px 0;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  #header-navi-title {
+    font-size: 40px;
+  }
+
+  #large {
+    display: none;
+  }
+
+  #medium {
+    display: inline;
+  }
+}
+
+@media (max-width: 450px) {
+  #header-navi-title {
+    font-size: 30px;
+  }
+
+  #medium {
+    display: none;
+  }
+
+  #small {
+    display: inline;
+  }
+}
