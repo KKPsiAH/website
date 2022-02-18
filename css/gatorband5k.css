@@ -1,0 +1,83 @@
+header{
+  margin:auto;
+  overflow: hidden;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+  border-bottom: #263b98 10px solid;
+  position: relative;
+}
+
+header ul{
+  padding: 10px 10px 10px 10px;
+  margin: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 10px 10px 10px 10px;
+
+}
+
+header a{
+  color: #666868;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  padding: 30px 20% 30px 20%;
+}
+
+.text h1 {
+  font-family: Cinzel, serif;
+  font-size: 35px;
+}
+
+.text h2 {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+
+#event {
+  padding: 30px 10% 30px 10%;
+  background: #ffffff;
+  color: #212529;
+  display: flex;
+}
+
+#event-text{
+  width: 65%;
+}
+
+#event-logo{
+  width: 35%;
+}
+
+#registration {
+  padding: 30px 15% 30px 15%;
+  background: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+}
+
+#registration a{
+  background-color: #021574;
+  color: #ffffff;
+  border: 2px solid #021574;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 50%;
+}
+
+#registration a:hover, a:active {
+  background-color: #379cfa;
+  color: white;
+}
