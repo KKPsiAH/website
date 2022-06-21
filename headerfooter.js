@@ -2,7 +2,7 @@ class psi_head extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <meta name="description" content="Welcome to Kappa Kappa Psi, Alpha Eta Chapter at the University of Florida!">
             <meta name="keywords" content="Kappa Kappa Psi Alpha Eta, kappa kappa psi, kkp, kkpsi, psi, florida, UF, University of Florida, AH, alpha eta, alpha eta chapter, chapter, fraturnity">
             <meta name="author" content="Kappa Kappa Psi | Alpha Eta">
@@ -12,11 +12,6 @@ class psi_head extends HTMLElement {
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-            <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-a11y="true"></script>
-            <script src="scripts/script.js"></script>
         `
     }
 }
@@ -92,6 +87,9 @@ class psi_footer extends HTMLElement {
                     <br>©2022 Kappa Kappa Psi, Alpha Eta Chapter. (<a href="https://docs.google.com/forms/d/e/1FAIpQLSegENJAInXQ2jWl0D-xCNIUJyomQjdl3U6bLBLXkoTLfsgWlA/viewform?usp=sf_link">report an issue</a>)
                 </div>
             </footer>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         `
     }
 }
