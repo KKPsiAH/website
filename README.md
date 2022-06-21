@@ -1,3 +1,7 @@
 # website
-Alpha Eta Chapter of Kappa Kappa Psi website
-https://kkpsiah.github.io/website/
+A fork of the Kappa Kappa Psi Alpha Eta Website
+https://ryanlu-ufl.github.io/kkpsiah-website/
+
+See the original [repo here!](https://github.com/KKPsiAH/website)
+
+The original website is hosted [here!](https://www.kkpsiah.org)
