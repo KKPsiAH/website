@@ -79,6 +79,7 @@
 
 #president-image{
   float: right;
+  transform: translate(0, -8%); 
   width: 40%
 }
 
