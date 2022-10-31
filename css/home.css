@@ -48,14 +48,16 @@
 }
 
 #president{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #263b98;
-  padding:20px 20px 20px 0;
+  padding:0 0 0 10%;
   height: 400px
 }
 
 #president img{
-  width: 80%;
-  transform: translate(0, 10%);
+  width: 100%;
   max-width: 300px;
   float: right;
 }
@@ -77,11 +79,13 @@
   font-size: 20px;
 }
 
+/*
 #president-image{
   float: right;
   transform: translate(0, -8%); 
   width: 40%
 }
+*/
 
 #links {
   padding: 30px 0 10px 0;
