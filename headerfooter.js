@@ -25,7 +25,7 @@ class psi_header extends HTMLElement {
             </div>
             <div id="header-navi">
                 <div id="header-navi-title">
-                Alpha Eta Chapter of Kappa Kappa Psi
+                  <img src="img\\logos\\ah\\alpha eta letterhead long.png" alt="Alpha Eta Chapter letterhead">
                 </div>
                 <div>
                 <nav>

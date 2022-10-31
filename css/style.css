@@ -40,8 +40,12 @@ header a{
 #header-navi-title{
   font-family: 'Cinzel', serif;
   font-size: 40px;
-  padding: 20px 20px 20px 20px;
 }
+
+#header-navi-title img{
+  width: 70%;
+}
+
 
 #header-navi{
   width: 80%;
