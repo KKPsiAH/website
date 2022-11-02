@@ -1,4 +1,5 @@
 header{
+  text-align: center;
   margin:auto;
   overflow: hidden;
   font-weight: bold;
@@ -8,33 +9,34 @@ header{
 }
 
 header ul{
+  text-align: center;
   padding: 10px 10px 10px 10px;
   margin: 0;
 }
 
 header li{
+  text-align: center;
   float: left;
   display: inline;
   padding: 10px 10px 10px 10px;
-
 }
 
 header a{
+  text-align: center;
   color: #666868;
   font-size: 16px;
   transition-duration: 0.4s;
 }
 
 #header-logo{
-  width: 15%;
+  width: 10%;
   float: left;
   overflow: hidden;
 }
 
 #header-logo img{
-  width: 130px;
+  width: 80px;
   float: right;
-
 }
 
 #header-navi-title{
@@ -42,18 +44,29 @@ header a{
   font-size: 40px;
 }
 
-#header-navi-title img{
-  width: 70%;
+#header-navi-title a{
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#header-navi-title img{
+  width: 100%;
+  max-width: 800px;
+  max-height: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #header-navi{
-  width: 80%;
-  float: right;
+  width: 100%;
+  float: none;
+  text-align: center;
 }
 
 #header-navi a{
   text-decoration: none;
+  text-align: center;
 }
 
 footer {
@@ -113,7 +126,12 @@ footer a{
     font-weight: normal;
   }
 }
-
+@media (max-width: 800px) {
+  #header-navi-title img {
+    padding: 0px 15px;
+  }
+}
+/*
 @media (max-width: 909px) {
   header{
     padding: 0 0 10px 0;
@@ -158,3 +176,5 @@ footer a{
     font-size: 27px;
   }
 }
+
+*/

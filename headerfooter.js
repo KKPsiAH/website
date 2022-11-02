@@ -20,30 +20,30 @@ class psi_header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <header>
-            <div id="header-logo">
-                <a href="index.html"><img src="img\\logos\\KappaKappaPsi.png" alt="Kappa Kappa Psi Logo"></img></a>
+            <!--- #removed the crest?
+            <div id="header-logo" class="d-none d-md-block">
+                <a href="index.html" class="d-none d-md-block"><img src="img\\logos\\KappaKappaPsi.png" alt="Kappa Kappa Psi Logo"></img></a>
             </div>
+            --->
             <div id="header-navi">
                 <div id="header-navi-title">
-                  <img src="img\\logos\\ah\\alpha eta letterhead long.png" alt="Alpha Eta Chapter letterhead">
+                  <a href="index.html"><img src="img\\logos\\ah\\alpha eta letterhead long.png" alt="Alpha Eta Chapter letterhead"></img></a>
                 </div>
-                <div>
                 <nav>
                     <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="whyKKY.html">Why KK&Psi;?</a></li>
-                    <li><a href="officers.html">Our Officers</a></li>
-                    <li><a href="brothers.html">Our Brothers</a></li>
-                    <li><a href="alumni.html">Alumni</a></li>
-                    <li><a href="news.html">AH News</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <!---
-                    <li><a style="color:#faac37" href="gatorband5k.html">Gator Band 5K</a></li>
-                    --->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="whyKKY.html">Why KK&Psi;?</a></li>
+                        <li><a href="officers.html">Our Officers</a></li>
+                        <li><a href="brothers.html">Our Brothers</a></li>
+                        <li><a href="alumni.html">Alumni</a></li>
+                        <li><a href="news.html">AH News</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <!---
+                        <li><a style="color:#faac37" href="gatorband5k.html">Gator Band 5K</a></li>
+                        --->
                     </ul>
                 </nav>
-                </div>
             </div>
         </header>
         `

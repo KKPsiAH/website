@@ -248,6 +248,11 @@
     width: 100%
   }
 
+  #president-message h1{
+    font-size: 30px;
+    transform:translate(-20%, 0);
+  }
+
   #links-text{
     font-size: 10px;
     font-weight: 900;
