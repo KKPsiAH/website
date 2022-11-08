@@ -29,22 +29,20 @@ class psi_header extends HTMLElement {
                 <div id="header-navi-title">
                   <a href="index.html"><img src="img\\logos\\ah\\alpha eta letterhead long.png" alt="Alpha Eta Chapter letterhead"></img></a>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="whyKKY.html">Why KK&Psi;?</a></li>
-                        <li><a href="officers.html">Our Officers</a></li>
-                        <li><a href="brothers.html">Our Brothers</a></li>
-                        <li><a href="alumni.html">Alumni</a></li>
-                        <li><a href="news.html">AH News</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <!---
-                        <li><a style="color:#faac37" href="gatorband5k.html">Gator Band 5K</a></li>
-                        --->
-                    </ul>
-                </nav>
             </div>
+              <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="whyKKY.html">Why KK&Psi;?</a></li>
+              <li><a href="officers.html">Our Officers</a></li>
+              <li><a href="brothers.html">Our Brothers</a></li>
+              <li><a href="alumni.html">Alumni</a></li>
+              <li><a href="news.html">AH News</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <!---
+              <li><a style="color:#faac37" href="gatorband5k.html">Gator Band 5K</a></li>
+              --->
+            </ul>
         </header>
         `
     }
