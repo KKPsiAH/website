@@ -21,6 +21,13 @@
 #brother-card .card {
   color: #000000;
   font-family: Roboto, sans-serif;
+  max-width: 400px;
+}
+
+#brother-card .card img {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  max-width: 400px;
 }
 
 #brother-row-2 {
@@ -69,6 +76,6 @@
   }
 
   #brother-card .card h3{
-    font-size: 23px;
+    font-size: 20px;
   }
 }
