@@ -9,6 +9,7 @@
 #showcase-image{
   width: 70%;
   float: right;
+  max-width: 1440px;
 }
 
 #showcase-text{

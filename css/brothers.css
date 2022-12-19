@@ -1,6 +1,8 @@
 #brother-row {
   padding:0px 10% 0px 10%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: #263b98;
   color: #d1d5d5;
   font-family: Cinzel, serif;

@@ -73,9 +73,9 @@ class psi_footer extends HTMLElement {
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
-                        <li><a href="whyKKY.html">Prospective Members</a></li>
-                        <li><a href="brothers.html">Our Brothers</a></li>
+                        <li><a href="whyKKY.html">Why KK&Psi;?</a></li>
                         <li><a href="officers.html">Our Officers</a></li>
+                        <li><a href="brothers.html">Our Brothers</a></li>
                         <li><a href="alumni.html">Alumni</a></li>
                         <li><a href="news.html">AH News</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
