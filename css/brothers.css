@@ -35,6 +35,8 @@
 #brother-row-2 {
   padding:0px 10% 0px 10%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ffffff;
   color: #000000;
   font-family: Cinzel, serif;
