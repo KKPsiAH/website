@@ -27,7 +27,7 @@ class psi_header extends HTMLElement {
             --->
             <div id="header-navi">
                 <div id="header-navi-title">
-                  <a href="index.html"><img src="img\\logos\\ah\\alpha eta letterhead long.png" alt="Alpha Eta Chapter letterhead"></img></a>
+                  <a href="index.html"><img src="img\\logos\\ah\\ahletterheadcentered.png" alt="Alpha Eta Chapter Letterhead"></img></a>
                 </div>
             </div>
               <ul class="nav">
