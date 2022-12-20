@@ -56,8 +56,7 @@ header a{
 
 #header-navi-title img{
   width: 100%;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 800px;
   display: block;
   margin-left: auto;
   margin-right: auto;

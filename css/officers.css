@@ -65,6 +65,7 @@
   width: 100%;
   font-family: Roboto, sans-serif;
   color: #000000;
+  max-width: 80%;
 }
 
 #officer-card .card h5{
