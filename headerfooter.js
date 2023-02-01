@@ -38,11 +38,9 @@ class psi_header extends HTMLElement {
               <li><a href="brothers.html">Our Brothers</a></li>
               <li><a href="alumni.html">Alumni</a></li>
               <li><a href="news.html">AH News</a></li>
+              <li><a style="color:#faac37" href="gatorband5k.html">Gator Band 5K</a></li>
               <li><a style="color:#FF0000" href="https://www.redbubble.com/people/kkpsiah/shop">RedBubble</a></li>
               <li><a href="contact.html">Contact Us</a></li>
-              <!---
-              <li><a style="color:#faac37" href="gatorband5k.html">Gator Band 5K</a></li>
-              --->
             </ul>
         </header>
         `
@@ -83,7 +81,7 @@ class psi_footer extends HTMLElement {
                     </nav>
                 </div>
                 <div id="footer-copyright">
-                    <br>©2022 Kappa Kappa Psi, Alpha Eta Chapter. (<a href="https://docs.google.com/forms/d/e/1FAIpQLSegENJAInXQ2jWl0D-xCNIUJyomQjdl3U6bLBLXkoTLfsgWlA/viewform?usp=sf_link">report an issue</a>)
+                    <br>©2023 Kappa Kappa Psi, Alpha Eta Chapter. (<a href="https://docs.google.com/forms/d/e/1FAIpQLSegENJAInXQ2jWl0D-xCNIUJyomQjdl3U6bLBLXkoTLfsgWlA/viewform?usp=sf_link">report an issue</a>)
                 </div>
             </footer>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

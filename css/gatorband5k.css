@@ -57,6 +57,12 @@ header a{
   width: 35%;
 }
 
+#event-logo img{
+  width: 90%;
+  transform:
+    translate(50px, 0px);
+}
+
 #registration {
   padding: 30px 15% 30px 15%;
   background: #ffffff;
