@@ -46,6 +46,10 @@
   background: #494949;
   padding: 50px 25% 50px 25%;
 }
+#intro h1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
 
 #president{
   display: flex;

@@ -10,6 +10,13 @@
   display: none;
 }
 
+#emails{
+  text-align: center;
+  background: #263b98;
+  font-family: Roboto, sans-serif;
+  color: #FFFFFF
+}
+
 @media(max-width: 720px) {
   #medium-form{
     display: inline;
