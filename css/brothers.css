@@ -48,10 +48,22 @@
 
 #hidden-card {
   visibility: hidden;
+  padding: 15px 15px 15px 15px;
+}
+#hidden-card .card {
+  max-width: 400px;
+}
+
+#hidden-card .card img {
+  max-width: 400px;
 }
 
 @media(max-width: 1264px) {
   #brother-card {
+    padding:10px 10px 10px 10px;
+  }
+
+  #hidden-card {
     padding:10px 10px 10px 10px;
   }
 
