@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+#facebookNews1 iframe{
+  background-color: #FFFFFF;
+}
+
 #facebookNews1 h1{
   font-family: Cinzel, serif;
   color: #d1d5d5;
