@@ -24,6 +24,13 @@
 }
 
 @font-face {
+  font-family: 'Montserrat_Bold';
+  src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Obviously';
   src: url('../fonts/Obviously/Obviously-Extended/Obviously-Extended.otf');
   font-weight: normal;
@@ -112,7 +119,8 @@
 }
 
 #president-message h1{
-  font-family: 'Cinzel', serif;
+  font-family: 'BillionDreams', serif;
+  font-size: 60px;
 }
 
 #president-message h2{
@@ -143,6 +151,7 @@
 #links a{
   color: #082589;
   text-decoration: none;
+  font-family: "Montserrat_Bold";
 }
 
 #links a:hover{
