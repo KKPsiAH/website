@@ -132,7 +132,8 @@ footer a{
 
 #footer-title{
   font-family: 'BillionDreams', serif;
-  font-size: 30px;
+  font-size: 40px;
+  color: #FFC61E;
 }
 
 #footer-social{
@@ -147,6 +148,7 @@ footer a{
 #footer-navi a{
   text-decoration: none;
   transition-duration: 0.4s;
+  font-family: "Montserrat_Bold";
 }
 
 #footer-navi a:hover{
