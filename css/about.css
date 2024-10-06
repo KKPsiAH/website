@@ -75,14 +75,14 @@
 }
 
 
-#class-image {
+#group-image {
   background: #082589;
   background: #082589;
   text-align: center;
   padding-bottom: 30px;
 }
 
-#class-image img {
+#group-image img {
   width: 100%;
   max-width: 1100px;
   padding-left: 30px;
