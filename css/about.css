@@ -1,11 +1,13 @@
 .text {
   font-family: Montserrat;
+  font-family: Montserrat;
   font-size: 18px;
   padding: 30px 20% 30px 20%;
 }
 
 .text h1 {
   font-family: Cinzel, serif;
+
 
 }
 
@@ -18,11 +20,18 @@
   padding: 30px 20% 30px 20%;
   background: #171717;
   color: #ffffff;
+  background: #171717;
+  color: #ffffff;
   display: flex;
 }
 
 #about-text {
   width: 50%;
+  
+}
+
+#about-header {
+  color: #FFC61E;
   
 }
 
@@ -46,6 +55,7 @@
 
 #purpose {
   background: #082589;
+  background: #082589;
   color:#ffffff;
 }
 
@@ -67,6 +77,7 @@
 
 #class-image {
   background: #082589;
+  background: #082589;
   text-align: center;
   padding-bottom: 30px;
 }
@@ -81,9 +92,11 @@
 
 #conduct {
   background: #ffffff;
+  background: #ffffff;
 }
 
 #conduct-image {
+  background: #ffffff;
   background: #ffffff;
   padding-bottom: 30px;
 }
