@@ -1,7 +1,7 @@
 #why {
   font-family: Roboto, sans-serif;
   padding: 30px 10% 30px;
-  background: #494949;
+  background: #082589;
   color: #f5f2ed;
   display: flex;
 }
@@ -24,24 +24,31 @@
 #accordion {
   padding: 30px 10% 30px 10%;
   font-family: Roboto, sans-serif;
-  background: #d4d4d4;
+  background: #ffffff;
+  color: #ffffff;
 }
 
 #accordion h1 {
   font-size: 40px;
-  font-family: Cinzel, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+#accordion .card {
+  background-color: #082589;
+  margin-bottom: 5px;
 }
 
 #accordion .btn {
   text-align: left;
   font-size: 18px;
-  text-decoration: none;
-  color: #494949;
+  text-decoration: none;  
+  color: #ffffff;
   transition-duration: 0.3s;
 }
 
 #accordion .btn:hover {
-  background-color: #b0b0b0;
+  background-color: #FFC61E;
   color: white;
 }
 
