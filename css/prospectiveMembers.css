@@ -8,7 +8,6 @@
 
 #why h1 {
   font-size: 25px;
-  font-style: italic;
 }
 
 #why-text {
@@ -23,15 +22,14 @@
 
 #accordion {
   padding: 30px 10% 30px 10%;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   background: #ffffff;
   color: #ffffff;
 }
 
 #accordion h1 {
   font-size: 40px;
-  font-family: "Montserrat", sans-serif;
-  color: #ffffff;
+  color: #171717;
 }
 
 #accordion .card {
