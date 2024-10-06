@@ -1,5 +1,5 @@
 #why {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat";
   padding: 30px 10% 30px;
   background: #082589;
   color: #f5f2ed;
@@ -8,6 +8,7 @@
 
 #why h1 {
   font-size: 25px;
+  font-family: "Montserrat_Bold";
 }
 
 #why-text {
@@ -29,6 +30,7 @@
 
 #accordion h1 {
   font-size: 40px;
+  font-family: "Montserrat_Bold";
   color: #171717;
 }
 
