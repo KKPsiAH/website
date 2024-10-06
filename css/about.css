@@ -1,12 +1,12 @@
 .text {
-  font-family: Roboto, sans-serif;
+  font-family: Montserrat;
   font-size: 18px;
   padding: 30px 20% 30px 20%;
 }
 
 .text h1 {
   font-family: Cinzel, serif;
-  font-size: 35px;
+
 }
 
 .text h2 {
@@ -16,13 +16,18 @@
 
 #about {
   padding: 30px 20% 30px 20%;
-  background: #494949;
-  color: #f5f2ed;
+  background: #171717;
+  color: #ffffff;
   display: flex;
 }
 
 #about-text {
   width: 50%;
+  
+}
+
+#about-header {
+  color: #FFC61E;
 }
 
 #carouselControls {
@@ -40,7 +45,7 @@
 }
 
 #purpose {
-  background: #263b98;
+  background: #082589;
   color:#ffffff;
 }
 
@@ -48,7 +53,23 @@
   display: inline;
 }
 
-#group-image {
+#mission {
+  padding: 30px 20% 30px 20%;
+  background: #171717;
+  color: #ffffff;
+  display: flex;
+}
+
+#mission-text{
+
+}
+
+#mission-header{
+  color: #FFC61E;
+}
+
+
+#class-image {
   background: #263b98;
   text-align: center;
   padding-bottom: 30px;
@@ -63,11 +84,11 @@
 }
 
 #conduct {
-  background: #d4d4d4;
+  background: #ffffff;
 }
 
 #conduct-image {
-  background: #d4d4d4;
+  background: #ffffff;
   padding-bottom: 30px;
 }
 
