@@ -48,15 +48,15 @@
   display: inline;
 }
 
-#class-image {
+#group-image {
   background: #263b98;
   text-align: center;
   padding-bottom: 30px;
 }
 
-#class-image img {
-  width: 100%;
+#group-image img {
   max-width: 1100px;
+  max-height: 500px;
   padding-left: 30px;
   padding-right: 30px;
 
