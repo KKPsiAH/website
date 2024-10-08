@@ -1,11 +1,11 @@
 #newsBody {
   display: flex;
-  background-color: #171717;
+  background-color: #263b98;
 }
 
 #newsBodyMobile {
   display: none;
-  background-color: #171717;
+  background-color: #263b98;
 }
 
 #facebookNews1 {
@@ -23,9 +23,8 @@
 }
 
 #facebookNews1 h1{
-  font-family: "BillionDreams", serif;
-  color: #FFC61E;
-  font-size: 65px;
+  font-family: Cinzel, serif;
+  color: #d1d5d5;
 }
 
 #featuredPosts iframe{

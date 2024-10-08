@@ -3,10 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #082589;
-  color: #ffffff;
-  font-family: "BillionDreams";
-  
+  background: #263b98;
+  color: #d1d5d5;
+  font-family: Cinzel, serif;
 }
 
 #brother-row-group {
@@ -15,19 +14,16 @@
 
 #brother-row h1 {
   padding:40px 20px 40px 20px;
-  font-size: 65px;
 }
 
 #brother-card {
   padding:15px 15px 15px 15px;
-  
 }
 
 #brother-card .card {
   color: #000000;
   font-family: Roboto, sans-serif;
   max-width: 400px;
-  font-family: "Montserrat";
 }
 
 #brother-card .card img {
@@ -43,12 +39,11 @@
   align-items: center;
   background: #ffffff;
   color: #000000;
-  font-family: "BillionDreams";
+  font-family: Cinzel, serif;
 }
 
 #brother-row-2 h1 {
   padding:40px 20px 40px 20px;
-  font-size: 65px;
 }
 
 #hidden-card {
@@ -78,14 +73,6 @@
 }
 
 @media(max-width: 960px) {
-  #brother-row h1 {
-    font-size: 45px;
-  }
-
-  #brother-row-2 h1 {
-    font-size: 45px;
-  }
-  
   #brother-row {
     padding:0px 10px 0px 10px;
   }
