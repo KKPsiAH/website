@@ -8,6 +8,7 @@
 
 #alumni1 h1 {
   font-family: "BillionDreams", sans-serif;
+  font-size: 65px;
 }
 
 #alumni1 img {
@@ -54,5 +55,9 @@
 @media (max-width: 500px) {
   #alumni2 td {
     display: block;
+  }
+
+  #alumni1 h1 {
+    font-size: 45px;
   }
 }
