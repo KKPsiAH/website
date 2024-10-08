@@ -12,9 +12,14 @@
 
 #emails{
   text-align: center;
-  background: #263b98;
-  font-family: Roboto, sans-serif;
-  color: #FFFFFF
+  background: #082589;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  padding: 20px;
+}
+
+#emails a {
+  color: #FFC61E;
 }
 
 @media(max-width: 720px) {
