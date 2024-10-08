@@ -4,7 +4,6 @@ header{
   overflow: hidden;
   font-weight: bold;
   padding: 20px 0 20px 0;
-  border-bottom: #263b98 10px solid;
   position: relative;
 }
 
@@ -28,9 +27,10 @@ header li{
 
 header a{
   text-align: center;
-  color: #666868;
+  color: #082589;
   font-size: 16px;
   transition-duration: 0.4s;
+  font-family: "Montserrat_Bold";
 }
 
 #header-logo{
@@ -107,8 +107,10 @@ header a{
 
 footer {
   text-align: center;
-  color: #d1d5d5;
-  background: #263b98;
+  color: #FFFFFF;
+  background: #082589;
+  padding: 20px 0;
+  font-family: "Montserrat";
 }
 
 footer ul{
@@ -124,13 +126,14 @@ footer li{
 
 footer a{
   font-weight: 550;
-  color: #d1d5d5;
+  color: #FFFFFF;
   font-size: 16px;
 }
 
 #footer-title{
-  font-family: 'Cinzel', serif;
-  font-size: 30px;
+  font-family: 'BillionDreams', serif;
+  font-size: 40px;
+  color: #FFC61E;
 }
 
 #footer-social{
@@ -145,6 +148,7 @@ footer a{
 #footer-navi a{
   text-decoration: none;
   transition-duration: 0.4s;
+  font-family: "Montserrat_Bold";
 }
 
 #footer-navi a:hover{
@@ -154,6 +158,11 @@ footer a{
 #footer-copyright a{
     text-decoration: underline;
 }
+
+#footer-copyright a:hover{
+  color: #919494;
+}
+
 
 /* Firefox specific rule */
 /* Firefox cannot render "Cinzel" bold, this renders the font as normal to prevent issues */

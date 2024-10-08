@@ -1,34 +1,36 @@
 #intro{
   padding: 20px 25% 20px 25%;
-
+  background-color: #171717;
+  color: #ffffff
 }
 
 #intro h1{
-  font-family: 'Cinzel', serif;
-  font-weight: 550;
+  font-family: 'BillionDreams';
+  color: #FFC61E;
+  font-size: 75px;
 }
 
 #intro p{
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat";
   font-size: 18px;
 }
 
 #officer-row-title{
   padding:0px 15% 40px 15%;
-  background: #263b98;
-  color: #d1d5d5;
+  background: #082589;
+  color: #ffffff;
 }
 
 #officer-row-title h1{
-  font-family: 'Cinzel', serif;
-  font-weight: 550;
+  font-family: 'BillionDreams';
   transform: translate(0, 20px);
+  font-size: 75px;
 }
 
 #officer-row{
   padding:0px 15% 40px 15%;
   display: flex;
-  background: #263b98;
+  background: #082589;
   color: #d1d5d5;
 }
 
@@ -63,7 +65,7 @@
 
 #officer-card .card{
   width: 100%;
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000000;
   max-width: 80%;
 }

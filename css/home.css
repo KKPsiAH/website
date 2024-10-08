@@ -1,5 +1,7 @@
+
 #showcase{
   overflow: hidden;
+  background-color: #082589;
 }
 
 #showcase img{
@@ -22,18 +24,15 @@
   width: 100%;
   text-align: center;
   display: none;
+  padding: 30px 0;
 }
 
 #showcase h1{
-  font-family: 'Sanchez', serif;
+  font-family: 'BillionDreams';
   font-size: 70px;
   padding: 20px 20px 20px 20px;
   font-weight: 550;
-  color: #2f49bd;
-  text-shadow:
-    1px -1px 0 #000,
-    -2px 2px 0 #000,
-    1px 1px 0 #000;
+  color: #FFFFFF;
 }
 
 #showcase div{
@@ -42,20 +41,23 @@
 
 #intro{
   font-size: 18px;
-  color: #f5f2ed;
-  background: #494949;
+  color: #FFFFFF;
+  background: #171717;
   padding: 50px 25% 50px 25%;
+  font-family: "Montserrat";
+  text-align: center;
 }
 #intro h1{
   font-family: 'Cinzel', serif;
   text-align: center;
+  color: #FFC61E;
 }
 
 #president{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #263b98;
+  background: #082589;
   padding:0 0 0 10%;
   height: 400px
 }
@@ -72,14 +74,16 @@
   padding:20px 10% 20px 40px;
   float: right;
   overflow: hidden;
+  font-family: "Montserrat";
 }
 
 #president-message h1{
-  font-family: 'Cinzel', serif;
+  font-family: 'BillionDreams', serif;
+  font-size: 60px;
 }
 
 #president-message h2{
-  font-style: italic;
+  font-family: "Montserrat_Italic";
   font-size: 20px;
 }
 
@@ -94,6 +98,8 @@
 #links {
   padding: 30px 0 10px 0;
   text-align: center;
+  color: #082589;
+  font-family: "Montserrat";
 }
 
 #links h1{
@@ -102,8 +108,9 @@
 }
 
 #links a{
-  color: #000000;
+  color: #082589;
   text-decoration: none;
+  font-family: "Montserrat_Bold";
 }
 
 #links a:hover{
@@ -188,7 +195,6 @@
   #showcase-image{
     width: 100%;
     float: right;
-    border-bottom: #263b98 5px solid;
   }
 
   #showcase-text{
@@ -239,10 +245,6 @@
 @media (max-width: 634px) {
   #showcase h1{
     font-size: 40px;
-    text-shadow:
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-      1px 1px 0 #000;
   }
 
   #president{

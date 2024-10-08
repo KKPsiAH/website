@@ -1,39 +1,16 @@
 header{
-  margin:auto;
-  overflow: hidden;
-  font-weight: bold;
-  padding: 20px 0 20px 0;
-  border-bottom: #263b98 10px solid;
-  position: relative;
-}
-
-header ul{
-  padding: 10px 10px 10px 10px;
-  margin: 0;
-}
-
-header li{
-  float: left;
-  display: inline;
-  padding: 10px 10px 10px 10px;
-
-}
-
-header a{
-  color: #666868;
-  font-size: 16px;
-  transition-duration: 0.4s;
+  border-bottom: #082589 10px solid;
 }
 
 .text {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   padding: 30px 20% 30px 20%;
 }
 
 .text h1 {
-  font-family: Cinzel, serif;
   font-size: 35px;
+  font-family: "Montserrat_Bold";
 }
 
 .text h2 {
@@ -45,7 +22,7 @@ header a{
 #event {
   padding: 30px 10% 30px 10%;
   background: #ffffff;
-  color: #212529;
+  color: #171717;
   display: flex;
 }
 
@@ -72,9 +49,9 @@ header a{
 }
 
 #registration a{
-  background-color: #021574;
+  background-color: #082589;
   color: #ffffff;
-  border: 2px solid #021574;
+  border: 2px solid #082589;
   border-radius: 25px;
   padding: 10px 20px;
   text-align: center;
@@ -84,6 +61,6 @@ header a{
 }
 
 #registration a:hover, a:active {
-  background-color: #379cfa;
+  background-color: #FFC61E;
   color: white;
 }

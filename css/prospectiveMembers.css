@@ -1,14 +1,14 @@
 #why {
-  font-family: Roboto, sans-serif;
+  font-family: "Montserrat";
   padding: 30px 10% 30px;
-  background: #494949;
+  background: #082589;
   color: #f5f2ed;
   display: flex;
 }
 
 #why h1 {
   font-size: 25px;
-  font-style: italic;
+  font-family: "Montserrat_Bold";
 }
 
 #why-text {
@@ -23,25 +23,33 @@
 
 #accordion {
   padding: 30px 10% 30px 10%;
-  font-family: Roboto, sans-serif;
-  background: #d4d4d4;
+  font-family: "Montserrat", sans-serif;
+  background: #ffffff;
+  color: #ffffff;
 }
 
 #accordion h1 {
   font-size: 40px;
-  font-family: Cinzel, sans-serif;
+  font-family: "Montserrat_Bold";
+  color: #171717;
+  text-align: center;
+}
+
+#accordion .card {
+  background-color: #082589;
+  margin-bottom: 5px;
 }
 
 #accordion .btn {
   text-align: left;
   font-size: 18px;
-  text-decoration: none;
-  color: #494949;
+  text-decoration: none;  
+  color: #ffffff;
   transition-duration: 0.3s;
 }
 
 #accordion .btn:hover {
-  background-color: #b0b0b0;
+  background-color: #FFC61E;
   color: white;
 }
 

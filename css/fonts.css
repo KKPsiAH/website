@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'BillionDreams';
+    src: url('../fonts/BillionDreams/webfont/BillionDreams.eot');
+    src:   url('../fonts/BillionDreams/webfont/BillionDreams.woff2') format('woff2'), /* Super Modern Browsers */
+           url('../fonts/BillionDreams/webfont/BillionDreams.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../fonts/BillionDreams/webfont/BillionDreams.ttf') format('truetype'); /* Safari, Android, iOS */
+  
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat_Italic';
+    src: url('../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat_Bold';
+    src: url('../fonts/Montserrat/static/Montserrat-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Obviously';
+    src: url('../fonts/Obviously/Obviously-Extended/Obviously-Extended.otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
