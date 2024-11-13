@@ -1,3 +1,7 @@
+#home {
+  display: flex;
+  flex-direction: column;
+}
 
 #showcase{
   overflow: hidden;
@@ -47,6 +51,7 @@
   font-family: "Montserrat";
   text-align: center;
 }
+
 #intro h1{
   font-family: 'Cinzel', serif;
   text-align: center;
@@ -55,31 +60,28 @@
 
 #president{
   display: flex;
-  justify-content: center;
+  padding: 20px 10%;
   align-items: center;
   background: #082589;
-  padding:0 0 0 10%;
-  height: 400px
 }
 
 #president img{
   width: 100%;
-  max-width: 300px;
-  float: right;
+  padding: 0 10%;
+}
+
+#president-image h1 {
+  color:#ffffff;
+  font-family: "BillionDreams";
+  padding: 8px 0;
 }
 
 #president-message{
   color:#ffffff;
-  width:60%;
-  padding:20px 10% 20px 40px;
+  padding:0 20px;
   float: right;
-  overflow: hidden;
   font-family: "Montserrat";
-}
-
-#president-message h1{
-  font-family: 'BillionDreams', serif;
-  font-size: 60px;
+  margin: 20px 0;
 }
 
 #president-message h2{
@@ -96,7 +98,7 @@
 */
 
 #links {
-  padding: 30px 0 10px 0;
+  padding: 10px 0 10px 0;
   text-align: center;
   color: #082589;
   font-family: "Montserrat";
@@ -247,8 +249,9 @@
     font-size: 40px;
   }
 
-  #president{
-    height: 800px;
+  #president {
+    flex-direction: column;
+    padding: 0;
   }
 
   #president-message{
@@ -274,9 +277,5 @@
 @media (max-width: 530px){
   #president{
     height: 850px;
-  }
-
-  #links-text-center{
-    padding: 0 5% 0 5%;
   }
 }
