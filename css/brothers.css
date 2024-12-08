@@ -2,11 +2,9 @@
   padding:0px 10% 0px 10%;
   display: flex;
   justify-content: center;
-  align-items: center;
   background: #082589;
   color: #ffffff;
   font-family: "BillionDreams";
-  
 }
 
 #brother-row-group {
@@ -20,14 +18,13 @@
 
 #brother-card {
   padding:15px 15px 15px 15px;
-  
 }
 
 #brother-card .card {
   color: #000000;
-  font-family: Roboto, sans-serif;
   max-width: 400px;
   font-family: "Montserrat";
+  height: 100%;
 }
 
 #brother-card .card img {
@@ -55,6 +52,7 @@
   visibility: hidden;
   padding: 15px 15px 15px 15px;
 }
+
 #hidden-card .card {
   max-width: 400px;
 }
@@ -101,7 +99,9 @@
 
 @media(max-width: 640px) {
   #brother-row-group {
-    display: block;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   #brother-card .card h3{
