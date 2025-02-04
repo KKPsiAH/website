@@ -36,7 +36,7 @@ class psi_header extends HTMLElement {
               <li><a href="whyKKY.html">Why KK&Psi;?</a></li>
               <li><a href="officers.html">Our Officers</a></li>
               <li><a href="brothers.html">Our Brothers</a></li>
-              <li><a href="alumni.html">Alumni</a></li>
+              <!--<li><a href="alumni.html">Alumni</a></li>-->
               <li><a href="news.html">AH News</a></li>
               <li><a style="color:#FFC61E" href="gatorband5k.html">Gator Band 5K</a></li>
               <li><a style="color:#FF0000" href="https://www.redbubble.com/people/kkpsiah/shop">RedBubble</a></li>
