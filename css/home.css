@@ -6,6 +6,10 @@
 #showcase{
   overflow: hidden;
   background-color: #082589;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 #showcase img{
@@ -21,7 +25,6 @@
 #showcase-text{
   width: 30%;
   text-align: center;
-  transform: translate(0, 30%);
 }
 
 #showcase-text-mobile{
@@ -33,7 +36,7 @@
 
 #showcase h1{
   font-family: 'BillionDreams';
-  font-size: 70px;
+  font-size: 6rem;
   padding: 20px 20px 20px 20px;
   font-weight: 550;
   color: #FFFFFF;
@@ -165,19 +168,24 @@
   }
 }
 
-@media (max-width: 1245px) {
+@media (max-width: 1265px) {
   #showcase-text{
-    transform: translate(0, 0);
+    transform: translate(0,0%);
+
+    }
+    #showcase h1{
+    font-size: 4rem;
+
   }
 }
 
 @media (max-width: 1170px) {
   #showcase-text{
-    transform: translate(0, 30%);
+    transform: translate(0, 0%);
   }
 
   #showcase h1{
-    font-size: 50px;
+    font-size: 4rem;
 
   }
 }
@@ -226,6 +234,9 @@
   #links-text-center{
     padding: 0 8% 0 8%;
   }
+  #showcase h1{
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 950px) {
@@ -247,9 +258,21 @@
   }
 }
 
+@media (max-width: 800px) {
+  #showcase-text{
+    transform: translate(0, 0%);
+  }
+
+  #showcase h1{
+    font-size: 2rem;
+
+  }
+}
+
+
 @media (max-width: 634px) {
   #showcase h1{
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   #president {
