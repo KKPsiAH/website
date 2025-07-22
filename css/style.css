@@ -56,6 +56,7 @@ header a{
 
 #header-navi-title img{
   width: 100%;
+  transform: translateX(-3.25%);
   max-width: 800px;
   display: block;
   margin-left: auto;
