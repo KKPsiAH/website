@@ -33,6 +33,12 @@
   max-width: 400px;
 }
 
+#brother-card .card img[src*="img\\logos\\KappaKappaPsiForCards.png"] {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  padding-block: 33%;
+}
+
 #brother-row-2 {
   padding:0px 10% 0px 10%;
   display: flex;
