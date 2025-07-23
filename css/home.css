@@ -190,6 +190,25 @@
   }
 }
 
+@media (max-width: 950px) {
+  #president{
+    height: 720px;
+  }
+
+  #president-message{
+    width: 100%
+  }
+
+  #president-image{
+    width: 100%;
+    text-align: center;
+  }
+
+  #president img{
+    float: none;
+  }
+}
+
 @media (max-width: 946px) {
   #showcase-text{
     transform: translate(0, 0);
@@ -244,25 +263,6 @@
   }
 }
 
-@media (max-width: 950px) {
-  #president{
-    height: 720px;
-  }
-
-  #president-message{
-    width: 100%
-  }
-
-  #president-image{
-    width: 100%;
-    text-align: center;
-  }
-
-  #president img{
-    float: none;
-  }
-}
-
 @media (max-width: 800px) {
   #showcase-text{
     transform: translate(0, 0%);
@@ -273,7 +273,6 @@
 
   }
 }
-
 
 @media (max-width: 634px) {
   #showcase h1{
