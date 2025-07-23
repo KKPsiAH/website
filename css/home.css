@@ -237,6 +237,11 @@
   #showcase h1{
     font-size: 3rem;
   }
+
+  #showcase{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media (max-width: 950px) {
