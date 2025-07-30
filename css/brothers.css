@@ -42,6 +42,7 @@
   max-width: 400px;
   max-height: 530px;
   aspect-ratio: 1 / 1.3;
+  object-fit: cover;
 }
 
 #brother-card .card img[src*="img\\logos\\KappaKappaPsiForCards.png"] {
