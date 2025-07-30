@@ -280,6 +280,14 @@
     flex-direction: column;
     align-items: center;
   }
+
+  #links ul{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  justify-content: center;
+}
 }
 
 @media (max-width: 800px) {
