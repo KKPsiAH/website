@@ -108,6 +108,8 @@
   text-align: center;
   color: #082589;
   font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
 }
 
 #links h1{
@@ -126,14 +128,16 @@
 }
 
 #links ul{
+  display:flex;
+  flex-direction: row;
   text-align: center;
   padding: 0;
+  justify-content: center;
 }
 
 #links img{
   max-height: 200px;
   max-width: 200px;
-  width: 15%;
   padding: 0 0 10px 0;
 }
 
@@ -155,9 +159,24 @@
 
 #links-image{
   text-align: center;
-  display: inline;
+  display: inline-block;
   padding: 0 9% 0 9%;
-  width:15%
+  width:100%
+}
+
+#links-image-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#links-image-text p{
+  font-size: 16px;
+  font-weight: 900;
+  color: var(--darkreader-text-082589, #7db4f7);
+  text-decoration-color: initial;
+  margin: 0;
 }
 
 /* Firefox specific rule */
@@ -282,6 +301,12 @@
   #president {
     flex-direction: column;
     padding: 0;
+  }
+
+  #president img{
+    width: 45%;
+    padding: 0;
+    margin: 0;
   }
 
   #president-message{
