@@ -1,3 +1,12 @@
+#brother-grid{
+  display: grid;
+  background: #082589;
+  color: #ffffff;
+  font-family: "BillionDreams";
+  grid-template-columns: repeat(4, minmax(100px, 430px));
+  justify-content: center;
+}
+
 #brother-row {
   padding:0px 10% 0px 10%;
   display: flex;
@@ -31,12 +40,17 @@
   color: #000000;
   font-family: Roboto, sans-serif;
   max-width: 400px;
+  max-height: 530px;
 }
 
 #brother-card .card img[src*="img\\logos\\KappaKappaPsiForCards.png"] {
   color: #000000;
   font-family: Roboto, sans-serif;
   padding-block: 33%;
+}
+
+#brother-card .card .card-body {
+  height: 30%;
 }
 
 #brother-row-2 {
@@ -82,8 +96,13 @@
 }
 
 @media(max-width: 960px) {
+  #brother-grid{
+    grid-template-columns: repeat(2, minmax(100px, 400px));
+    justify-content: center;
+  }
   #brother-row h1 {
     font-size: 45px;
+    text-align: center;
   }
 
   #brother-row-2 h1 {
