@@ -81,7 +81,7 @@ class psi_footer extends HTMLElement {
                     </nav>
                 </div>
                 <div id="footer-copyright">
-                    <br>©2024 Kappa Kappa Psi, Alpha Eta Chapter. (<a href="https://docs.google.com/forms/d/e/1FAIpQLSegENJAInXQ2jWl0D-xCNIUJyomQjdl3U6bLBLXkoTLfsgWlA/viewform?usp=sf_link" target="_blank">report an issue</a>)
+                    <br>©2025 Kappa Kappa Psi, Alpha Eta Chapter. (<a href="https://docs.google.com/forms/d/e/1FAIpQLSegENJAInXQ2jWl0D-xCNIUJyomQjdl3U6bLBLXkoTLfsgWlA/viewform?usp=sf_link" target="_blank">report an issue</a>)
                 </div>
             </footer>
             <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
