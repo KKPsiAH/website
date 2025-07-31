@@ -1,3 +1,5 @@
+
+
 #intro{
   padding: 20px 0;;
   background-color: #171717;
@@ -18,6 +20,17 @@
   font-family: "Montserrat";
   font-size: 18px;
 }
+
+#officer-grid{
+  display: grid;
+  background: #082589;
+  color: #ffffff;
+  font-family: "BillionDreams";
+  grid-template-columns: repeat(4, minmax(100px, 430px));
+  justify-content: center;
+}
+
+
 
 #officer-row-title{
   padding:0px 15% 40px 15%;
@@ -41,7 +54,8 @@
 
 #officer-row-title-2{
   padding:0px 15% 40px 15%;
-  background-color: #ffffff;
+  background-color: #082589;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -64,8 +78,10 @@
 }
 
 #officer-card{
-  width: 50%;
-  padding: 0px 20px 0px 20px;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 #officer-card .card{
@@ -73,7 +89,22 @@
   height: 100%;
   font-family: "Montserrat", sans-serif;
   color: #000000;
-  max-width: 80%;
+  max-width: 100%;
+}
+
+#officer-card .card img {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  max-width: 400px;
+  max-height: 530px;
+  aspect-ratio: 1 / 1.3;
+  object-fit: cover;
+}
+
+#officer-card .card img[src*="img\\logos\\KappaKappaPsiForCards.png"] {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  padding-block: 33%;
 }
 
 #officer-card .card h5{
@@ -82,6 +113,16 @@
 
 #officer-card .card h6{
   padding-bottom: 10px;
+}
+@media(max-width: 960px) {
+  #officer-grid{
+  display: grid;
+  background: #082589;
+  color: #ffffff;
+  font-family: "BillionDreams";
+  grid-template-columns: repeat(2, minmax(100px, 400px));
+  justify-content: center;
+  }
 }
 
 @media (max-width: 928px){
@@ -105,11 +146,5 @@
   #officer-row-2{
     display: block;
     padding: 0;
-  }
-
-  #officer-card{
-    margin: auto;
-    width: 75%;
-    padding: 20px 0 20px 0;
   }
 }
